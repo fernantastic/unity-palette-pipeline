@@ -11,6 +11,8 @@ This is an implementation and case study for a custom stylized art pipeline that
 - A color palette system with interchangeable palette assets for different looks
 - No need for custom materials. A single drawcall renders the entire scene.
 
+Requirements: Tested on Unity 6000.3.11f1 URP
+
 ## Please see the full writeup and documentation at:
 
 [https://app.notion.com/p/Fernando-Ramallo-Technical-Art-Case-Study-A-stylized-Art-Pipeline-39d985971dce80da932ef7ef8aaebf68?source=copy_link](https://app.notion.com/p/Fernando-Ramallo-Technical-Art-Case-Study-A-stylized-Art-Pipeline-39d985971dce80da932ef7ef8aaebf68?source=copy_link)
