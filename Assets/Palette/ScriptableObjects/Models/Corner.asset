@@ -1,0 +1,448 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b142a830c8879fe4186a1ddc49314ba7, type: 3}
+  m_Name: Corner
+  m_EditorClassIdentifier: Assembly-CSharp::Palette.ModelColoring
+  model: {fileID: 919132149155446097, guid: 8cf023ee79ae98c4d88725caabc6eb3c, type: 3}
+  materialData:
+  - assetMaterialName: BLack.003
+    materialId: 7703943
+    properties:
+      colorSlot: 5
+  - assetMaterialName: BLack.004
+    materialId: 7702734
+    properties:
+      colorSlot: 9
+  - assetMaterialName: Balls.002
+    materialId: 7151201
+    properties:
+      colorSlot: 13
+  - assetMaterialName: Base.002
+    materialId: 13441824
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Base.003
+    materialId: 13442227
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Base.004
+    materialId: 13444242
+    properties:
+      colorSlot: 6
+  - assetMaterialName: Base.005
+    materialId: 13444645
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Base.008
+    materialId: 13445854
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Base.015
+    materialId: 13590128
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Base.016
+    materialId: 13591337
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Base.017
+    materialId: 13590934
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Base.018
+    materialId: 13595367
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Base.021
+    materialId: 13105319
+    properties:
+      colorSlot: 6
+  - assetMaterialName: Base.022
+    materialId: 13105722
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Base.035
+    materialId: 13252414
+    properties:
+      colorSlot: 12
+  - assetMaterialName: Black.057
+    materialId: 7535886
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Bottom.003
+    materialId: 15147789
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Bottom.006
+    materialId: 15145774
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Dirt
+    materialId: 12059584
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Dividers
+    materialId: 6502127
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Dividers.006
+    materialId: 13585351
+    properties:
+      colorSlot: 13
+  - assetMaterialName: Facade.001
+    materialId: 16769538
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Gates
+    materialId: 5110611
+    properties:
+      colorSlot: 8
+  - assetMaterialName: Glass
+    materialId: 12627403
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Glass.001
+    materialId: 14223186
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Glass.002
+    materialId: 14222783
+    properties:
+      colorSlot: 1
+  - assetMaterialName: Glass.005
+    materialId: 14221574
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Glass.006
+    materialId: 14221171
+    properties:
+      colorSlot: 1
+  - assetMaterialName: Glass.007
+    materialId: 14220768
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Glass.008
+    materialId: 14226813
+    properties:
+      colorSlot: 1
+  - assetMaterialName: Grate
+    materialId: 2669796
+    properties:
+      colorSlot: 6
+  - assetMaterialName: Handle.001
+    materialId: 1242602
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Hinges
+    materialId: 11003533
+    properties:
+      colorSlot: 6
+  - assetMaterialName: Holes
+    materialId: 14932680
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Main.003
+    materialId: 14623747
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Main.006
+    materialId: 14624956
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Material.001
+    materialId: 1767249
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Material.002
+    materialId: 1766040
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Material.003
+    materialId: 1766443
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Material.005
+    materialId: 1768861
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Material.006
+    materialId: 1767652
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Material.008
+    materialId: 1763622
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Material.010
+    materialId: 1967943
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Material.011
+    materialId: 1967540
+    properties:
+      colorSlot: 7
+  - assetMaterialName: Material.012
+    materialId: 1968749
+    properties:
+      colorSlot: 1
+  - assetMaterialName: Material.013
+    materialId: 1968346
+    properties:
+      colorSlot: 7
+  - assetMaterialName: Material.014
+    materialId: 1966331
+    properties:
+      colorSlot: 1
+  - assetMaterialName: Material.015
+    materialId: 1965928
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Material.016
+    materialId: 1967137
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Material.017
+    materialId: 1966734
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Material.018
+    materialId: 1964719
+    properties:
+      colorSlot: 7
+  - assetMaterialName: Material.019
+    materialId: 1964316
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Material.020
+    materialId: 1467820
+    properties:
+      colorSlot: 7
+  - assetMaterialName: Material.107
+    materialId: 10516284
+    properties:
+      colorSlot: 1
+  - assetMaterialName: Material.109
+    materialId: 10518702
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Material.110
+    materialId: 10366368
+    properties:
+      colorSlot: 6
+  - assetMaterialName: Material.122
+    materialId: 10867297
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Material.123
+    materialId: 10866894
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Material.125
+    materialId: 10867700
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Material.128
+    materialId: 10863267
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Material.129
+    materialId: 10862864
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Material.130
+    materialId: 10665394
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Material.131
+    materialId: 10665797
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Material.133
+    materialId: 10664991
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Material.137
+    materialId: 10663379
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Material.160
+    materialId: 11503231
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Material.195
+    materialId: 11654759
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Material.198
+    materialId: 11649520
+    properties:
+      colorSlot: 7
+  - assetMaterialName: Material.201
+    materialId: 15490395
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Material.203
+    materialId: 15491201
+    properties:
+      colorSlot: 7
+  - assetMaterialName: Material.278
+    materialId: 16623631
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Material.280
+    materialId: 14203616
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Material.404
+    materialId: 6713214
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Material.406
+    materialId: 6712408
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Material.407
+    materialId: 6712811
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Material.413
+    materialId: 6903430
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Material.438
+    materialId: 6562089
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Material.440
+    materialId: 7403150
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Material.441
+    materialId: 7403553
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Material.443
+    materialId: 7402747
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Material.448
+    materialId: 7399926
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Metal.001
+    materialId: 3316949
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Metal.003
+    materialId: 3316143
+    properties:
+      colorSlot: 6
+  - assetMaterialName: Metal.005
+    materialId: 3315337
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Pillows
+    materialId: 14410537
+    properties:
+      colorSlot: 1
+  - assetMaterialName: Pole.001
+    materialId: 464586
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Rim
+    materialId: 10304443
+    properties:
+      colorSlot: 13
+  - assetMaterialName: Screws.002
+    materialId: 8183652
+    properties:
+      colorSlot: 1
+  - assetMaterialName: Stairs.001
+    materialId: 14240366
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Stone.003
+    materialId: 14026813
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Stone.007
+    materialId: 14025201
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Tire
+    materialId: 13861299
+    properties:
+      colorSlot: 1
+  - assetMaterialName: Tires
+    materialId: 16073024
+    properties:
+      colorSlot: 11
+  - assetMaterialName: Top Leaves
+    materialId: 12065336
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Top Rail.001
+    materialId: 7847405
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Trunk
+    materialId: 1695773
+    properties:
+      colorSlot: 6
+  - assetMaterialName: Wings
+    materialId: 11916907
+    properties:
+      colorSlot: 6
+  - assetMaterialName: Wood.001
+    materialId: 9625481
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Wood.012
+    materialId: 9775397
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Wood.013
+    materialId: 9774994
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Wood.015
+    materialId: 9772576
+    properties:
+      colorSlot: 2
+  - assetMaterialName: base
+    materialId: 14456024
+    properties:
+      colorSlot: 6
+  - assetMaterialName: leaves
+    materialId: 3693001
+    properties:
+      colorSlot: 0
+  - assetMaterialName: protectors
+    materialId: 5998182
+    properties:
+      colorSlot: 6
+  - assetMaterialName: sit
+    materialId: 3146079
+    properties:
+      colorSlot: 13
+  - assetMaterialName: road
+    materialId: 2083995
+    properties:
+      colorSlot: 11
+  - assetMaterialName: roof
+    materialId: 16589903
+    properties:
+      colorSlot: 3
+  - assetMaterialName: sidewalk
+    materialId: 13112295
+    properties:
+      colorSlot: 12

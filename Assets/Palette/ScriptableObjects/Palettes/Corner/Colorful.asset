@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34556f615f040484189c6bef7280fb3e, type: 3}
+  m_Name: Colorful
+  m_EditorClassIdentifier: Assembly-CSharp::Palette.Palette
+  shading:
+    SpecularColor: {r: 0.9245283, g: 0.81537545, b: 0.6236205, a: 0.23921569}
+    SpecularSharpness: 0.112
+    SpecularCoverage: 0.215
+    ShadeColor: {r: 0.4716981, g: 0.24252403, b: 0.24252403, a: 0.8156863}
+    ShadeCoverage: 0.247
+    ShadeSharpness: 0.358
+    ShadowsOpacity: 1
+    ShadowsTint: {r: 0.77254903, g: 0, b: 0.10759756, a: 0.3254902}
+    ShadowsReplacementColor: {r: 0.11764706, g: 0.13725491, b: 0.1764706, a: 0.45490196}
+    LitTintAmount: 0
+    LitTint: {r: 1, g: 1, b: 1, a: 0}
+  skyAndFog:
+    FogColor: {r: 0.6037736, g: 0.49523342, b: 0.36739054, a: 1}
+    FogDensity: 0.028
+    HeightFogOpacity: 0.213
+    HeightFogHeight: 6.86
+    SkyGroundColor: {r: 0.35, g: 0.32, b: 0.28, a: 1}
+    SkyHorizonColor: {r: 0.5283019, g: 0.4990821, b: 0.47098613, a: 1}
+    SkyZenithColor: {r: 0.11347453, g: 0.25732812, b: 0.4716981, a: 1}
+    SkySunColor: {r: 1, g: 0.95, b: 0.85, a: 1}
+    SkySunSize: 0.002
+    NighttimeTint: {r: 0.1, g: 0.15, b: 0.35, a: 1}
+  texturing:
+    DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+    DirtmapOpacity: 0
+    UseDirtmap: 1
+    DirtmapSize: 0.013
+    DirtmapTexture: {fileID: 2800000, guid: d068141bdb43a5242a37042da40ffc38, type: 3}
+  colorSlots:
+    KeyColor:
+      name: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    SecondaryColor:
+      name: 
+      color: {r: 1, g: 1, b: 1, a: 1}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    slots:
+    - name: 
+      color: {r: 0.084905684, g: 0.038848355, b: 0.038848355, a: 0}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 0, g: 0, b: 0, a: 0}
+      DirtmapSize: 0
+    - name: 
+      color: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 0}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: -1
+      DirtmapColor: {r: 0, g: 0, b: 0, a: 0}
+      DirtmapSize: 0
+    - name: 
+      color: {r: 0.45990565, g: 0.49510106, b: 0.5, a: 0}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 0, g: 0, b: 0, a: 0}
+      DirtmapSize: 0
+    - name: 
+      color: {r: 0.84642136, g: 0.8490566, b: 0.49261305, a: 0}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 0, g: 0, b: 0, a: 0}
+      DirtmapSize: 0
+    - name: 
+      color: {r: 0.8679245, g: 0.3940944, b: 0.38892844, a: 0}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 0, g: 0, b: 0, a: 0}
+      DirtmapSize: 0
+    - name: 
+      color: {r: 0.053563103, g: 0, b: 0.23584908, a: 0}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 0, g: 0, b: 0, a: 0}
+      DirtmapSize: 0
+    - name: 
+      color: {r: 0.07738519, g: 0.2328841, b: 0.3490566, a: 0}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 0, g: 0, b: 0, a: 0}
+      DirtmapSize: 0
+    - name: 
+      color: {r: 0.3215112, g: 0.49586576, b: 0.8018868, a: 0}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 0, g: 0, b: 0, a: 0}
+      DirtmapSize: 0
+    - name: 
+      color: {r: 0.36040404, g: 0.8396226, b: 0.5142429, a: 0}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 0, g: 0, b: 0, a: 0}
+      DirtmapSize: 0
+    - name: 
+      color: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 0}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 0, g: 0, b: 0, a: 0}
+      DirtmapSize: 0
+    - name: 
+      color: {r: 0.26210395, g: 0.31176576, b: 0.5849056, a: 0}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 0, g: 0, b: 0, a: 0}
+      DirtmapSize: 0
+    - name: 
+      color: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 0}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 0, g: 0, b: 0, a: 0}
+      DirtmapSize: 0

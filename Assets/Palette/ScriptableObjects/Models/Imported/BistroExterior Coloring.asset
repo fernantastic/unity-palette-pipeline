@@ -1,0 +1,544 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b142a830c8879fe4186a1ddc49314ba7, type: 3}
+  m_Name: BistroExterior Coloring
+  m_EditorClassIdentifier: Assembly-CSharp::Palette.ModelColoring
+  model: {fileID: 919132149155446097, guid: f2887e8543aae7040b04f101a8cb649a, type: 3}
+  materialData:
+  - assetMaterialName: Antenna_Metal
+    materialId: 9679396
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Antenna_Plastic
+    materialId: 6946923
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Antenna_Plastic_Blue
+    materialId: 8599408
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Ashtray
+    materialId: 1976803
+    properties:
+      colorSlot: 8
+  - assetMaterialName: Awnings_Beams
+    materialId: 15515875
+    properties:
+      colorSlot: 7
+  - assetMaterialName: Awnings_Fabric
+    materialId: 4802564
+    properties:
+      colorSlot: 7
+  - assetMaterialName: Awnings_Hotel_Fabric
+    materialId: 10987727
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Balcony_Concrete
+    materialId: 3889043
+    properties:
+      colorSlot: 6
+  - assetMaterialName: Balcony_Green_Wood
+    materialId: 15352257
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Balcony_Ornaments
+    materialId: 2357381
+    properties:
+      colorSlot: 9
+  - assetMaterialName: Balcony_Trims
+    materialId: 7169909
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Banner_Metal
+    materialId: 15520635
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Bistro_Sign_Letters
+    materialId: 12105138
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Bistro_Sign_Main
+    materialId: 7165632
+    properties:
+      colorSlot: 13
+  - assetMaterialName: Bollards
+    materialId: 87928
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Chimneys_Metal
+    materialId: 8161101
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Concrete
+    materialId: 3358686
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Concrete2
+    materialId: 11378820
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Concrete3
+    materialId: 11379223
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Concrete_Striped
+    materialId: 11525162
+    properties:
+      colorSlot: 0
+  - assetMaterialName: ElectricBox
+    materialId: 14115611
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Emissive_StreetLight
+    materialId: 6629992
+    properties:
+      colorSlot: 1
+  - assetMaterialName: Foliage_Bux_Hedges46.DoubleSided
+    materialId: 862773
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Foliage_Flowers.DoubleSided
+    materialId: 9048091
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Foliage_Ivy_branches
+    materialId: 753086
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Foliage_Ivy_leaf_a.DoubleSided
+    materialId: 13254898
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Foliage_Leaves.DoubleSided
+    materialId: 725045
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Foliage_Linde_Tree_Large_Green_Leaves.DoubleSided
+    materialId: 3574329
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Foliage_Linde_Tree_Large_Orange_Leaves.DoubleSided
+    materialId: 6052768
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Foliage_Linde_Tree_Large_Trunk
+    materialId: 5484053
+    properties:
+      colorSlot: 11
+  - assetMaterialName: Foliage_Paris_Flowers
+    materialId: 7689975
+    properties:
+      colorSlot: 10
+  - assetMaterialName: Foliage_Trunk
+    materialId: 9316653
+    properties:
+      colorSlot: 0
+  - assetMaterialName: LanternEmissive
+    materialId: 2695012
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Awning_Beams
+    materialId: 16617901
+    properties:
+      colorSlot: 5
+  - assetMaterialName: MASTER_Awning_Fabric_Cyan
+    materialId: 796652
+    properties:
+      colorSlot: 7
+  - assetMaterialName: MASTER_Awning_Fabric_Red
+    materialId: 3384910
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Bistro_Main_Door
+    materialId: 11694180
+    properties:
+      colorSlot: 7
+  - assetMaterialName: MASTER_Black_Metal
+    materialId: 5658643
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Book_Covers
+    materialId: 6126310
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Boulangerie
+    materialId: 10249851
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Brick_Large_Beige_BLENDSHADER
+    materialId: 6424887
+    properties:
+      colorSlot: 6
+  - assetMaterialName: MASTER_Brick_Large_White
+    materialId: 4505011
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Brick_Small_Red
+    materialId: 9594473
+    properties:
+      colorSlot: 5
+  - assetMaterialName: MASTER_Brick_Small_Red_BLENDSHADER
+    materialId: 12845628
+    properties:
+      colorSlot: 6
+  - assetMaterialName: MASTER_Bronze_BLENDSHADER
+    materialId: 5508029
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Building_Details
+    materialId: 7766585
+    properties:
+      colorSlot: 6
+  - assetMaterialName: MASTER_Concrete
+    materialId: 2479351
+    properties:
+      colorSlot: 6
+  - assetMaterialName: MASTER_Concrete1
+    materialId: 9302962
+    properties:
+      colorSlot: 6
+  - assetMaterialName: MASTER_Concrete_Grooved
+    materialId: 2351686
+    properties:
+      colorSlot: 4
+  - assetMaterialName: MASTER_Concrete_Plaster
+    materialId: 7501359
+    properties:
+      colorSlot: 9
+  - assetMaterialName: MASTER_Concrete_Plaster1_BLENDSHADER
+    materialId: 8174559
+    properties:
+      colorSlot: 6
+  - assetMaterialName: MASTER_Concrete_Smooth
+    materialId: 9062198
+    properties:
+      colorSlot: 5
+  - assetMaterialName: MASTER_Concrete_Smooth_BLENDSHADER
+    materialId: 5289795
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Concrete_White
+    materialId: 5018069
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Concrete_Yellow
+    materialId: 4572240
+    properties:
+      colorSlot: 6
+  - assetMaterialName: MASTER_Curtains
+    materialId: 3619463
+    properties:
+      colorSlot: 12
+  - assetMaterialName: MASTER_Details_Dark
+    materialId: 13161391
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Doors
+    materialId: 12096973
+    properties:
+      colorSlot: 8
+  - assetMaterialName: MASTER_Focus
+    materialId: 13806700
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Focus_Ornament
+    materialId: 2164441
+    properties:
+      colorSlot: 8
+  - assetMaterialName: MASTER_Forge_Metal
+    materialId: 11487367
+    properties:
+      colorSlot: 7
+  - assetMaterialName: MASTER_Frosted_Glass
+    materialId: 13767260
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Glass_Dirty
+    materialId: 14616347
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Glass_Dirty_MASKED
+    materialId: 15963117
+    properties:
+      colorSlot: 6
+  - assetMaterialName: MASTER_Glass_Exterior
+    materialId: 2301603
+    properties:
+      colorSlot: 12
+  - assetMaterialName: MASTER_Grain_Metal
+    materialId: 501019
+    properties:
+      colorSlot: 6
+  - assetMaterialName: MASTER_Light_Bulb
+    materialId: 16005426
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Metal
+    materialId: 15342135
+    properties:
+      colorSlot: 7
+  - assetMaterialName: MASTER_Metal_Pipe
+    materialId: 6714500
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Plastic
+    materialId: 124980
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Rollup_Door
+    materialId: 9718271
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Roofing_Metal_01
+    materialId: 7955944
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Roofing_Shingle_Green
+    materialId: 4244711
+    properties:
+      colorSlot: 6
+  - assetMaterialName: MASTER_Roofing_Shingle_Grey
+    materialId: 4767687
+    properties:
+      colorSlot: 5
+  - assetMaterialName: MASTER_Room_Interior
+    materialId: 5941808
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Side_Letters
+    materialId: 4862489
+    properties:
+      colorSlot: 6
+  - assetMaterialName: MASTER_Trim_Cornice
+    materialId: 10561070
+    properties:
+      colorSlot: 6
+  - assetMaterialName: MASTER_Wood_Brown
+    materialId: 15370318
+    properties:
+      colorSlot: 6
+  - assetMaterialName: MASTER_Wood_Painted3
+    materialId: 13386756
+    properties:
+      colorSlot: 5
+  - assetMaterialName: MASTER_Wood_Painted_Cyan
+    materialId: 15048935
+    properties:
+      colorSlot: 6
+  - assetMaterialName: MASTER_Wood_Painted_Green
+    materialId: 8644499
+    properties:
+      colorSlot: 11
+  - assetMaterialName: MASTER_Wood_Painted_Green_BLENDSHADER
+    materialId: 16076562
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MASTER_Wood_Polished
+    materialId: 16712966
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MenuSign_01
+    materialId: 13969307
+    properties:
+      colorSlot: 7
+  - assetMaterialName: MenuSign_02_Glass
+    materialId: 1350665
+    properties:
+      colorSlot: 0
+  - assetMaterialName: MenuSign_02_Mesh
+    materialId: 3276518
+    properties:
+      colorSlot: 0
+  - assetMaterialName: NapkinHolder
+    materialId: 8998280
+    properties:
+      colorSlot: 5
+  - assetMaterialName: Paris_Chair_01
+    materialId: 5212012
+    properties:
+      colorSlot: 7
+  - assetMaterialName: Paris_LiquorBottle_01_Caps
+    materialId: 12763855
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Paris_LiquorBottle_01_Glass_Wine
+    materialId: 5656038
+    properties:
+      colorSlot: 1
+  - assetMaterialName: Paris_LiquorBottle_01_Labels
+    materialId: 659333
+    properties:
+      colorSlot: 3
+  - assetMaterialName: Paris_StreetPivot
+    materialId: 3972414
+    properties:
+      colorSlot: 11
+  - assetMaterialName: Paris_StreetSign_01
+    materialId: 50807
+    properties:
+      colorSlot: 7
+  - assetMaterialName: Paris_StringLights_01_Blue_Color_Emissive
+    materialId: 5168232
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Paris_StringLights_01_Green_Color_Emissive
+    materialId: 10053
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Paris_StringLights_01_Orange_Color_Emissive
+    materialId: 7103466
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Paris_StringLights_01_Pink_Color_Emissive
+    materialId: 1928812
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Paris_StringLights_01_Red_Color_Emissive
+    materialId: 13988817
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Paris_StringLights_01_White_Color
+    materialId: 8328575
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Paris_StringLights_01_White_Color_Emissive
+    materialId: 6374799
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Paris_Table_Terrace
+    materialId: 6570158
+    properties:
+      colorSlot: 7
+  - assetMaterialName: Paris_TrafficSign_A
+    materialId: 11473559
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Pavement_Brick_BLENDSHADER
+    materialId: 6340000
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Pavement_Cobble_Leaves_BLENDSHADER
+    materialId: 12103723
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Pavement_Cobblestone_01_BLENDSHADER
+    materialId: 13390289
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Pavement_Cobblestone_02
+    materialId: 4124473
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Pavement_Cobblestone_Big_BLENDSHADER
+    materialId: 8323362
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Pavement_Cobblestone_Small_BLENDSHADER
+    materialId: 5695359
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Pavement_Cobblestone_Wet_BLENDSHADER
+    materialId: 10249360
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Pavement_Cobblestone_Wet_Leaves_BLENDSHADER
+    materialId: 172767
+    properties:
+      colorSlot: 4
+  - assetMaterialName: Pavement_Curbstones
+    materialId: 15997546
+    properties:
+      colorSlot: 11
+  - assetMaterialName: Pavement_Ground_Wet
+    materialId: 3922720
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Pavement_Manhole_Cover
+    materialId: 4640170
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Plantpots
+    materialId: 13539162
+    properties:
+      colorSlot: 9
+  - assetMaterialName: Plaster
+    materialId: 13901348
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Shopsign_Bakery
+    materialId: 14380541
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Shopsign_Book_Store_Emissive
+    materialId: 9593304
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Shopsign_Pharmacy_Emissive
+    materialId: 14141698
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Shopsign_Ties_Shop
+    materialId: 5779767
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Sidewalkbarrier
+    materialId: 32070
+    properties:
+      colorSlot: 8
+  - assetMaterialName: Spotlight_Emissive
+    materialId: 12517319
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Spotlight_Glass_Emissive
+    materialId: 13883466
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Spotlight_Main
+    materialId: 3637413
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Streetlight_Chains
+    materialId: 13627581
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Streetlight_Metal
+    materialId: 7937970
+    properties:
+      colorSlot: 9
+  - assetMaterialName: Streetlight_Support_Bulb
+    materialId: 6969244
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Stringlights
+    materialId: 10682381
+    properties:
+      colorSlot: 2
+  - assetMaterialName: Trashcan
+    materialId: 14264517
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Vespa
+    materialId: 1454426
+    properties:
+      colorSlot: 11
+  - assetMaterialName: Vespa_Headlight
+    materialId: 7882191
+    properties:
+      colorSlot: 7
+  - assetMaterialName: Vespa_Odometer
+    materialId: 1309470
+    properties:
+      colorSlot: 0
+  - assetMaterialName: Vespa_Odometer_Glass
+    materialId: 6670745
+    properties:
+      colorSlot: 0

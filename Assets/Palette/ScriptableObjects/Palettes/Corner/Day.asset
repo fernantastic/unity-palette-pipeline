@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34556f615f040484189c6bef7280fb3e, type: 3}
+  m_Name: Day
+  m_EditorClassIdentifier: Assembly-CSharp::Palette.Palette
+  shading:
+    SpecularColor: {r: 0.27058825, g: 0.2627451, b: 0.25882354, a: 0.84313726}
+    SpecularSharpness: 0.983
+    SpecularCoverage: 0
+    ShadeColor: {r: 0.13725491, g: 0.14509805, b: 0.18431373, a: 1}
+    ShadeCoverage: 0.481
+    ShadeSharpness: 0.934
+    ShadowsOpacity: 1
+    ShadowsTint: {r: 0, g: 0, b: 0, a: 0.92941177}
+    ShadowsReplacementColor: {r: 0.11764707, g: 0.13725491, b: 0.1764706, a: 0.7176471}
+    LitTintAmount: 0.049
+    LitTint: {r: 1, g: 1, b: 1, a: 0}
+  skyAndFog:
+    FogColor: {r: 0.64705884, g: 0.64705884, b: 0.5882353, a: 0.43137255}
+    FogDensity: 0
+    HeightFogOpacity: 0.046
+    HeightFogHeight: 82.82
+    FogSunScatterAmount: 0.236
+    SkyGroundColor: {r: 0.35, g: 0.32, b: 0.28, a: 1}
+    SkyHorizonColor: {r: 0.3490566, g: 0.19195764, b: 0.13336597, a: 1}
+    SkyZenithColor: {r: 0.14382343, g: 0.19545771, b: 0.3018868, a: 1}
+    SkySunColor: {r: 0.1792453, g: 0.1401967, b: 0.06510324, a: 1}
+    SkySunSize: 0.0051
+    NighttimeTint: {r: 0.20545569, g: 0.21483879, b: 0.254717, a: 0.6039216}
+  texturing:
+    DirtmapColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+    DirtmapOpacity: 0.11
+    UseDirtmap: 1
+    DirtmapSize: 0.044
+    DirtmapTexture: {fileID: 2800000, guid: 5ef09648b6b0ca1439f28f8ad42c8f80, type: 3}
+  colorSlots:
+    KeyColor:
+      name: 
+      color: {r: 0.5294118, g: 0.41176474, b: 0.3137255, a: 1}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    SecondaryColor:
+      name: glass
+      color: {r: 0.33641866, g: 0.3466536, b: 0.3773585, a: 1}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    slots:
+    - name: generic
+      color: {r: 0.44705886, g: 0.4039216, b: 0.3647059, a: 0.98039216}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    - name: glass
+      color: {r: 0.18431373, g: 0.21568629, b: 0.17254902, a: 0.98039216}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    - name: brick
+      color: {r: 0.36078432, g: 0.3372549, b: 0.30588236, a: 0.98039216}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    - name: brick-detail
+      color: {r: 0.20754719, g: 0.18111429, b: 0.14587043, a: 0.98039216}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    - name: metal
+      color: {r: 0, g: 0, b: 0, a: 0.98039216}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    - name: roof tiles
+      color: {r: 0.5372549, g: 0.42352945, b: 0.30980393, a: 0.98039216}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    - name: windows
+      color: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 0.98039216}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    - name: 
+      color: {r: 0.64705884, g: 0.64705884, b: 0.5882353, a: 0.98039216}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    - name: 
+      color: {r: 0.27058825, g: 0.24313727, b: 0.2627451, a: 1}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    - name: 
+      color: {r: 0.64705884, g: 0.64705884, b: 0.5882353, a: 0.98039216}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    - name: 
+      color: {r: 0.5188679, g: 0.49424005, b: 0.46257564, a: 1}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20
+    - name: 
+      color: {r: 0.36862746, g: 0.2627451, b: 0.32941177, a: 0.98039216}
+      overrideDirtmap: 0
+      DirtmapTexture: {fileID: 0}
+      DirtmapOpacity: 0
+      DirtmapColor: {r: 1, g: 1, b: 1, a: 1}
+      DirtmapSize: 20

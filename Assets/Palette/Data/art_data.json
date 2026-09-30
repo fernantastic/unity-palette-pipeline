@@ -1,0 +1,39 @@
+{
+    "scenes": [
+        {
+            "id": "game",
+            "isMain": true,
+            "surface_types": [
+                {"id": "generic.metal"},
+                {"id": "generic.concrete"},
+                {"id": "street.sidewalk"},
+                {"id": "street.road"},
+                {"id": "vehicle.metal"},
+                {"id": "vehicle.rubber"},
+                {"id": "vehicle.glass"},
+                {"id": "tree.trunk"},
+                {"id": "tree.canopy"}
+            ]
+        },
+        {
+            "id": "corner",
+            "surface_types": [
+                {"id": "building.wall"},
+                {"id": "building.facade"},
+                {"id": "building.facade.bottom"},
+                {"id": "building.fancierwall"}
+            ]
+        }
+        ,
+        {
+            "id": "beach",
+            "surface_types": [
+                {"id": "sand"},
+                {"id": "water"},
+                {"id": "building.wall"},
+                {"id": "building.rooftiles"},
+                {"id": "building.window"}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c4d74d000f515447845d472bc46b33f, type: 3}
+  m_Name: Material Database
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::Palette.MaterialDatabase
+  artDataJson: {fileID: 4900000, guid: 7ecf7f476cbd9c54587a2dee07792080, type: 3}
+  sceneData:
+  - id: game
+    surfaceTypes:
+    - id: generic.metal
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
+    - id: generic.concrete
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
+    - id: street.sidewalk
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
+    - id: street.road
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
+    - id: vehicle.metal
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
+    - id: vehicle.rubber
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
+    - id: vehicle.glass
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
+    - id: tree.trunk
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
+    - id: tree.canopy
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
+  - id: corner
+    surfaceTypes:
+    - id: building.fancierwall
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
+  - id: beach
+    surfaceTypes:
+    - id: sand
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
+    - id: water
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
+    - id: building.wall
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
+    - id: building.rooftiles
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
+    - id: building.window
+      color: {r: 1, g: 1, b: 1, a: 1}
+      useOverrideMaterial: 0
+      overrideMaterial: {fileID: 0}
