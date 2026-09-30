@@ -1,6 +1,6 @@
 # Stylized Art Pipeline for Unity
 
-Contact: [Fernando Ramallo<fernando.ramallo@gmail.com>](mailto:fernando.ramallo@gmail.com)
+Contact: [Fernando Ramallo<fernando.ramallo@gmail.com>](mailto:fernando.ramallo@gmail.com)  
 Website: [https://byfernando.com/](https://byfernando.com/)
 
 This is an implementation and case study for a custom stylized art pipeline that includes:
@@ -32,6 +32,10 @@ Drag a model to the project, a custom importer applies the custom pipeline autom
 
 ![Editing a Palette](.assets/tweaking.gif)
 
+### Uber shader
+
+![Uber Shader](.assets/shader.png)
+
 ## Screenshots
 
 ![Main Camera - Colorful](.assets/cameras/Main_Camera__Corner_Colorful.asset.jpg)
@@ -46,3 +50,7 @@ Drag a model to the project, a custom importer applies the custom pipeline autom
 ![Main Camera (6) - Foggy](.assets/cameras/Main_Camera_%286%29__Corner_Foggy.asset.jpg)
 ![Main Camera (6) - Night](.assets/cameras/Main_Camera_%286%29__Corner_Night.asset.jpg)
 ![Main Camera (6) - Night variant](.assets/cameras/Main_Camera_%286%29__Corner_Night_1.asset.jpg)
+
+## Acknowledgments
+
+ - [Amazon Lumberyard Bistro scene](https://developer.nvidia.com/orca/amazon-lumberyard-bistro), used under [Creative Commons CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
